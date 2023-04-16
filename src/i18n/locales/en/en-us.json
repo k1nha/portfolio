@@ -3,7 +3,25 @@
     "apresentacao1": "Hi, I'm Lucas. I'am FullStack Developer Junior",
     "apresentacao2": "With focus in web and mobile development",
     "apresentacao3": "Using an eye for innovative design with knowledge of techniques aimed at a great user experience.",
+
     "objetivos1": "Looking for an opportunity related to FullStack or Mobile development.",
-    "objetivos2": "With the experiences acquired during my studies, I am looking for a chance to contribute to innovative projects in the area of technology"
+    "objetivos2": "With the experiences acquired during my studies, I am looking for a chance to contribute to innovative projects in the area of technology",
+
+    "contatos1": "Location: Salvador,Bahia - Available to realocation",
+
+    "intera": "Tech Recruiter - INTERA | jun/2021 - feb/2022",
+    "intera-1": "Prospecting and recruiting talent from business, product, and technology areas using Scrum methodology; Funnel assessment and talent qualifications.",
+
+    "freelancer": "Freelancer - Freelancer | apr/2023 - current",
+    "freelancer-1": "Creation of web pages from prototypes. Projects with Java,Typescript/JavaScript using the React framework with use of REST API's",
+
+    "senac": "Systems Development Technology Degreee - SENAC | ago/2022 - nov/2023",
+    "senac-1": "Responsible for leading the final project (Desktop App, WebSite)",
+
+    "unifacs": "Economics Bachelor Degree - UNIFACS | jan/2017 - dez/2020",
+    "unifacs-1": "Participation on academic directory. Experience related to the administrative area with educational projects professionalization projects for students",
+
+    "interesses":"Using technology to grow social projects",
+    "interesses-1":"Local business development with community involvement and outreach"
   }
 }
