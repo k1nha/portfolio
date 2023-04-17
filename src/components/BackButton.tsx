@@ -6,10 +6,10 @@ function BackButton() {
   return (
     <>
       <m.button
-        initial={{ x: 0 }}
-        animate={{ x: 100 }}
+        initial={{ x: -100 }}
+        animate={{ x: 0 }}
         transition={{ duration: 1 }}
-        className="absolute top-20 left-20 text-white"
+        className="absolute top-20 left-5 md:left-[5%] lg:left-20  text-white"
       >
         <Link to="/">
           <IoIosArrowBack />
