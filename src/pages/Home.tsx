@@ -17,7 +17,7 @@ function Home() {
             </p>
           </Link>
           <Link to="/contact">
-            <p id="lucas" className="text-BabyBlue">
+            <p id="lucas" className="w-[400px] text-transparent bg-clip-text bg-gradient-to-r from-[#4cbeff99] to-[#b7e5a2b0]">
               <span>Lucas</span>
             </p>
           </Link>
