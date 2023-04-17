@@ -1,14 +1,22 @@
 {
-  "name": "portfolio",
+  "name": "portfolio-lucascmpus",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "author": {
+    "name": "Lucas Campos",
+    "email": "lucascmpus@gmail.com"
+  },
+  "repository": {
+    "url": "https://github.com/lucascmpus/portfolio"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "framer-motion": "^10.12.2",
     "i18next": "^22.4.14",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
