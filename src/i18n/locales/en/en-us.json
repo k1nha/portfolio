@@ -1,5 +1,8 @@
 {
   "translation": {
+    "sobre": "About",
+    "curriculo": "My Resume (pdf)",
+
     "apresentacao-1": "Hi, I'm Lucas. I'am FullStack Developer Junior",
     "apresentacao-2": "With focus in web and mobile development",
     "apresentacao-3": "Using an eye for innovative design with knowledge of techniques aimed at a great user experience.",
@@ -24,6 +27,11 @@
     "unifacs-1": "Participation on academic directory. Experience related to the administrative area with educational projects professionalization projects for students",
 
     "interesses": "Using technology to grow social projects",
-    "interesses-1": "Local business development with community involvement and outreach"
+    "interesses-1": "Local business development with community involvement and outreach",
+
+    "contato": "Contact",
+    "contato-1": "I am always looking for opportunities to collaborate with organizations / agencies / individuals, not only to work for them. I want to contribute my experiences so that we can work together to solve real problems.",
+    "contato-2": "If everything seems right, then let's talk about how we can work together.",
+    "contato-3": "Feel free to contact me through any platform below:"
   }
 }

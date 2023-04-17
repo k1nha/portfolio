@@ -1,5 +1,8 @@
 {
   "translation": {
+    "sobre": "Sobre",
+    "curriculo": "Meu currículo (pdf)",
+
     "apresentacao-1": "Olá, Eu sou Lucas. Desenvolvedor FullStack Junior",
     "apresentacao-2": "Com foco em desenvolvimento web e mobile",
     "apresentacao-3": "Usando um olhar para design inovador com conhecimento de técnicas voltadas para a uma ótima experiência do usuário.",
@@ -24,6 +27,11 @@
     "unifacs-1": "Participação no diretório acadêmico. Experiência relacionada ao setor admnistrativo com projetos educacionais para profissionalização dos estudantes",
 
     "interesses": "Papel e crescimento da tecnologia no crescimento da sociedade ",
-    "interesses-1": "Desenvolvimento de negócios locais com envolvimento e alcance da comunidade"
+    "interesses-1": "Desenvolvimento de negócios locais com envolvimento e alcance da comunidade",
+
+    "contato": "Contato",
+    "contato-1": "Estou sempre em busca de oportunidades para colaborar com organizações / agências / indivíduos, não apenas trabalhar para eles. Desejo contribuir com minhas experiências para que possamos trabalhar em conjunto afim de solucionar problemas reais.",
+    "contato-2": "Se tudo parecer certo, então vamos conversar sobre como podemos trabalhar juntos.",
+    "contato-3": "Sinta-se a vontade para entrar em contato comigo através de qualquer plataforma abaixo:"
   }
 }
