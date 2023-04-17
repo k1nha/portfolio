@@ -1,14 +1,16 @@
 {
   "translation": {
-    "apresentacao1": "Hi, I'm Lucas. I'am FullStack Developer Junior",
-    "apresentacao2": "With focus in web and mobile development",
-    "apresentacao3": "Using an eye for innovative design with knowledge of techniques aimed at a great user experience.",
+    "apresentacao-1": "Hi, I'm Lucas. I'am FullStack Developer Junior",
+    "apresentacao-2": "With focus in web and mobile development",
+    "apresentacao-3": "Using an eye for innovative design with knowledge of techniques aimed at a great user experience.",
 
-    "objetivos1": "Looking for an opportunity related to FullStack or Mobile development.",
-    "objetivos2": "With the experiences acquired during my studies, I am looking for a chance to contribute to innovative projects in the area of technology",
+    "objetivo": "Objective",
+    "objetivos-1": "Looking for an opportunity related to FullStack or Mobile development.",
+    "objetivos-2": "With the experiences acquired during my studies, I am looking for a chance to contribute to innovative projects in the area of technology",
 
-    "contatos1": "Location: Salvador,Bahia - Available to realocation",
+    "contatos-1": "Location: Salvador,Bahia - Available to realocation",
 
+    "experiencias": "Experiences",
     "intera": "Tech Recruiter - INTERA | jun/2021 - feb/2022",
     "intera-1": "Prospecting and recruiting talent from business, product, and technology areas using Scrum methodology; Funnel assessment and talent qualifications.",
 
@@ -21,7 +23,7 @@
     "unifacs": "Economics Bachelor Degree - UNIFACS | jan/2017 - dez/2020",
     "unifacs-1": "Participation on academic directory. Experience related to the administrative area with educational projects professionalization projects for students",
 
-    "interesses":"Using technology to grow social projects",
-    "interesses-1":"Local business development with community involvement and outreach"
+    "interesses": "Using technology to grow social projects",
+    "interesses-1": "Local business development with community involvement and outreach"
   }
 }

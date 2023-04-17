@@ -1,14 +1,16 @@
 {
   "translation": {
-    "apresentacao1": "Olá, Eu sou Lucas. Desenvolvedor FullStack Junior",
-    "apresentacao2": "Com foco em desenvolvimento web e mobile",
-    "apresentacao3": "Usando um olhar para design inovador com conhecimento de técnicas voltadas para a uma ótima experiência do usuário.",
+    "apresentacao-1": "Olá, Eu sou Lucas. Desenvolvedor FullStack Junior",
+    "apresentacao-2": "Com foco em desenvolvimento web e mobile",
+    "apresentacao-3": "Usando um olhar para design inovador com conhecimento de técnicas voltadas para a uma ótima experiência do usuário.",
 
-    "objetivos1": "Em busca de uma oportunidade relacionada ao desenvolvimento FullStack ou Mobile.",
-    "objetivos2": "Com as experiências adquiridas ao longo dos meus estudos, procuro uma chance de contribuir projetos inovadores na área de tecnologia",
+    "objetivo": "Objetivo",
+    "objetivos-1": "Em busca de uma oportunidade relacionada ao desenvolvimento FullStack ou Mobile.",
+    "objetivos-2": "Com as experiências adquiridas ao longo dos meus estudos, procuro uma chance de contribuir projetos inovadores na área de tecnologia",
 
-    "contatatos1": "Localização: Salvador, Bahia - Disponível para realocação",
+    "contatos-1": "Localização: Salvador, Bahia - Disponível para realocação",
 
+    "experiencias": "Experiências",
     "intera": "Tech Recruiter - INTERA | jun/2021 - feb/2022",
     "intera-1": "Prospecção e recrutamento de talentos das áreas de negócios, produtos e tecnologia utilizando metodologia Scrum; Avaliação de funil e qualificações de talentos.",
 
