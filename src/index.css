@@ -45,5 +45,13 @@
 #lucas:hover:before {
   content: 'Contact';
 }
+
+#email:hover a {
+  display: none;
+}
+
+#email:hover:before {
+  content: 'Copy';
+}
 @tailwind components;
 @tailwind utilities;
