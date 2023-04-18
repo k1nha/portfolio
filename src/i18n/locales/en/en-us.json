@@ -3,13 +3,13 @@
     "sobre": "About",
     "curriculo": "My Resume (pdf)",
 
-    "apresentacao-1": "Hi, I'm Lucas. I'am FullStack Developer Junior",
-    "apresentacao-2": "With focus in web and mobile development",
-    "apresentacao-3": "Using an eye for innovative design with knowledge of techniques aimed at a great user experience.",
+    "apresentacao-1": "Hi, I'm Lucas. I'm a FullStack Junior Developer",
+    "apresentacao-2": "My main focus is web and mobile development.",
+    "apresentacao-3": "With an analytic approach, I'm using my knowledge to create programs and features aiming at a greater user experience.",
 
     "objetivo": "Objective",
     "objetivos-1": "Looking for an opportunity related to FullStack or Mobile development.",
-    "objetivos-2": "With the experiences acquired during my studies, I am looking for a chance to contribute to innovative projects in the area of technology",
+    "objetivos-2": "With the experiences acquired with my studies, I am looking for a chance to contribute to innovative projects in technology.",
 
     "contatos-1": "Location: Salvador,Bahia - Available to realocation",
 
@@ -18,7 +18,7 @@
     "intera-1": "Prospecting and recruiting talent from business, product, and technology areas using Scrum methodology; Funnel assessment and talent qualifications.",
 
     "freelancer": "Freelancer - Freelancer | apr/2023 - current",
-    "freelancer-1": "Creation of web pages from prototypes. Projects with Java,Typescript/JavaScript using the React framework with use of REST API's",
+    "freelancer-1": "Creation of web pages from prototypes. Projects with Java,Typescript/JavaScript using React framework with the help of REST API's",
 
     "senac": "Systems Development Technology Degreee - SENAC | ago/2022 - nov/2023",
     "senac-1": "Responsible for leading the final project (Desktop App, WebSite)",
@@ -30,8 +30,8 @@
     "interesses-1": "Local business development with community involvement and outreach",
 
     "contato": "Contact",
-    "contato-1": "I am always looking for opportunities to collaborate with organizations / agencies / individuals, not only to work for them. I want to contribute my experiences so that we can work together to solve real problems.",
-    "contato-2": "If everything seems right, then let's talk about how we can work together.",
+    "contato-1": "I am always looking forward opportunities on collaborating with organizations / agencies / individuals, not only to work for them. I want to use my knowledge so we can work together and solve real problems.",
+    "contato-2": "If you like the idea, let's talk and see how we can work together.",
     "contato-3": "Feel free to contact me through any platform below:"
   }
 }
