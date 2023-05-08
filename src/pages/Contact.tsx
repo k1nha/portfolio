@@ -69,7 +69,9 @@ function Contact() {
               }}
               className="text-2xl font-bold w-[400px] text-transparent bg-clip-text bg-gradient-to-r from-[#4cbeff99] to-[#b7e5a2b0]"
             >
-              <a href="">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/lucascmpus" target="_blank">
+                LinkedIn
+              </a>
             </m.p>
             <m.p
               whileHover={{
@@ -78,7 +80,9 @@ function Contact() {
               }}
               className="text-2xl font-bold w-[400px] text-transparent bg-clip-text bg-gradient-to-r from-[#4cbeff99] to-[#b7e5a2b0]"
             >
-              <a href="">GitHub</a>
+              <a href="https://github.com/lucascmpus" target="_blank">
+                GitHub
+              </a>
             </m.p>
           </div>
         </div>

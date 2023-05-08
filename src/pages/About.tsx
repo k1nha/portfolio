@@ -42,10 +42,10 @@ function About() {
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
       >
-        <div className="w-[100vw] h-[100vh] flex flex-col justify-center items-center font-Montserrat text-white p-5 md:p-0">
+        <div className="w-[100vw] h-[100vh] flex flex-col justify-center items-center font-Montserrat text-white p-5 md:p-0 text-xs md:text-base">
           {/* ABOUT */}
           <div className="flex flex-col gap-4 flex-wrap max-w-[750px] ">
-            <div className="text-2xl font-bold flex justify-between">
+            <div className="text-lg md:text-2xl font-bold flex justify-between">
               <h1>{t('sobre')}</h1>
 
               <m.button
@@ -53,7 +53,7 @@ function About() {
                   x: -20,
                   transition: { duration: 0.3 },
                 }}
-                className="text-xl text-right text-transparent bg-clip-text bg-gradient-to-r from-[#4cbeff99] to-[#b7e5a2b0]"
+                className="text-lg md:text-xl text-right text-transparent bg-clip-text bg-gradient-to-r from-[#4cbeff99] to-[#b7e5a2b0]"
               >
                 <a href="../assets/lucas_campos_curriculum.pdf">
                   {t('curriculo')}
@@ -61,7 +61,7 @@ function About() {
               </m.button>
             </div>
 
-            <h1 className="text-3xl text-BabyGreen">{t('apresentacao-1')}</h1>
+            <h1 className="text-2xl md:text-3xl text-BabyGreen">{t('apresentacao-1')}</h1>
             <p>{t('apresentacao-2')}</p>
 
             <p>{t('apresentacao-3')}</p>
@@ -70,7 +70,7 @@ function About() {
             <div className="">
               <h1
                 className={
-                  underlineEffect + ' before:w-[100px] font-bold text-xl'
+                  underlineEffect + ' before:w-[100px] font-bold text-lg md:text-xl'
                 }
               >
                 {t('objetivo')}
@@ -83,7 +83,7 @@ function About() {
             <div className="">
               <h1
                 className={
-                  underlineEffect + ' before:w-[128px] font-bold text-xl'
+                  underlineEffect + ' before:w-[128px] font-bold text-lg md:text-xl'
                 }
               >
                 {t('experiencias')}
@@ -91,13 +91,13 @@ function About() {
 
               {/* INTERA */}
               <div className="">
-                <li className="text-lg">{t('intera')}</li>
+                <li className="text-base md:text-xl">{t('intera')}</li>
                 <p>{t('intera-1')}</p>
               </div>
 
               {/* FREELA */}
               <div className="mt-4">
-                <li className="text-lg">{t('freelancer')}</li>
+                <li className="text-base md:text-xl">{t('freelancer')}</li>
                 <p>{t('freelancer-1')}</p>
               </div>
             </div>
