@@ -55,7 +55,7 @@ function About() {
                 }}
                 className="text-lg md:text-xl text-right text-transparent bg-clip-text bg-gradient-to-r from-[#4cbeff99] to-[#b7e5a2b0]"
               >
-                <a href="../assets/lucas_campos_curriculum.pdf">
+                <a href="">
                   {t('curriculo')}
                 </a>
               </m.button>
