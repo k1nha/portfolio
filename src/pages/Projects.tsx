@@ -27,9 +27,9 @@ const projects = [
     link: 'https://to-do-js-zeta.vercel.app/',
   },
   {
-    name: 'dtmoney',
-    description: 'Curso RocketSeat',
-    github: 'https://github.com/lucascmpus/dtmoney',
+    name: 'Eternal Tech',
+    description: 'Technical Test',
+    github: 'https://eternaltech-client.vercel.app/',
   },
 ];
 

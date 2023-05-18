@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Background from '../components/Background';
 import { useTranslation } from 'react-i18next';
 import { HiOutlineLanguage } from 'react-icons/hi2';
@@ -27,7 +27,7 @@ function About() {
       <BackButton />
 
       <m.button
-        initial={{ x: 100 }}
+        initial={{ x: -100 }}
         animate={{ x: 0 }}
         transition={{ duration: 1 }}
         className="absolute top-20 right-5 md:right-10 lg:right-20 text-white bg-BabyBlue px-2 py-1 shadow-2xl rounded-md"
@@ -55,13 +55,13 @@ function About() {
                 }}
                 className="text-lg md:text-xl text-right text-transparent bg-clip-text bg-gradient-to-r from-[#4cbeff99] to-[#b7e5a2b0]"
               >
-                <a href="">
-                  {t('curriculo')}
-                </a>
+                <a href="">{t('curriculo')}</a>
               </m.button>
             </div>
 
-            <h1 className="text-2xl md:text-3xl text-BabyGreen">{t('apresentacao-1')}</h1>
+            <h1 className="text-2xl md:text-3xl text-BabyGreen">
+              {t('apresentacao-1')}
+            </h1>
             <p>{t('apresentacao-2')}</p>
 
             <p>{t('apresentacao-3')}</p>
@@ -70,7 +70,8 @@ function About() {
             <div className="">
               <h1
                 className={
-                  underlineEffect + ' before:w-[100px] font-bold text-lg md:text-xl'
+                  underlineEffect +
+                  ' before:w-[100px] font-bold text-lg md:text-xl'
                 }
               >
                 {t('objetivo')}
@@ -83,7 +84,8 @@ function About() {
             <div className="">
               <h1
                 className={
-                  underlineEffect + ' before:w-[128px] font-bold text-lg md:text-xl'
+                  underlineEffect +
+                  ' before:w-[128px] font-bold text-lg md:text-xl'
                 }
               >
                 {t('experiencias')}

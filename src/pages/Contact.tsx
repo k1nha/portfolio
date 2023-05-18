@@ -29,7 +29,7 @@ function Contact() {
     <>
       <BackButton />
       <m.button
-        initial={{ x: 100 }}
+        initial={{ x: -100 }}
         animate={{ x: 0 }}
         transition={{ duration: 1 }}
         className="absolute top-20 right-5 md:right-10 lg:right-20 text-white bg-BabyBlue px-2 py-1 shadow-2xl rounded-md"
