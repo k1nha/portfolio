@@ -5,6 +5,12 @@ import Background from '../components/Background';
 
 const projects = [
   {
+    name: 'Codei.pro',
+    description: 'Plataforma de educação',
+    github: 'https://github.com/eternaltechnology',
+    link: 'https://codei.pro/',
+  },
+  {
     name: 'VUTTR',
     description: 'A Very Useful Tools to Remember',
     github: 'https://github.com/lucascmpus/vuttr',
@@ -14,12 +20,7 @@ const projects = [
     description: 'CRUD with Express Prisma MySQL',
     github: 'https://github.com/lucascmpus/menu-api',
   },
-  {
-    name: 'Doutor Nature',
-    description: 'Technical Test',
-    github: 'https://github.com/lucascmpus/Doutor-Nature',
-    link: 'https://doutor-nature-psi.vercel.app/',
-  },
+
   {
     name: 'To Do',
     description: 'Uma lista de tarefas para organizar o trabalho e a vida',
