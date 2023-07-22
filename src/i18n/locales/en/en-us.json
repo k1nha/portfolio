@@ -1,6 +1,13 @@
 {
   "translation": {
-    "sobre": "About",
+    "ola": "Hello",
+    "ola-1": "About",
+    "eu-sou": "I am",
+    "eu-sou-1": "Projects",
+    "lucas": "Contact",
+    "email":"Email Copied",
+    "copia": "Copy",
+
     "curriculo": "My Resume (pdf)",
 
     "apresentacao-1": "Hi, I'm Lucas. I'm a FullStack Junior Developer",
@@ -39,6 +46,9 @@
     "projeto-menu-api-descricao": "APIRestful with Express,Prisma and MySQL",
     "projeto-eternal-descricao": "Technical Test for Eternal Technology",
 
-    "mensagem-curriculo": "Currently unavailable"
+    "mensagem-curriculo": "Currently unavailable",
+
+    "perdido": "You are lost?",
+    "perdido-1": "Come here..."
   }
 }

@@ -20,38 +20,5 @@
   );
 }
 
-#hello:hover span {
-  display: none;
-}
-
-#hello:hover:before {
-  content: 'About';
-  transition: all 1s;
-}
-
-#iam:hover span {
-  display: none;
-}
-
-#iam:hover:before {
-  content: 'Projects';
-  transition: all 1s;
-}
-
-#lucas:hover span {
-  display: none;
-}
-
-#lucas:hover:before {
-  content: 'Contact';
-}
-
-#email:hover a {
-  display: none;
-}
-
-#email:hover:before {
-  content: 'Copy';
-}
 @tailwind components;
 @tailwind utilities;

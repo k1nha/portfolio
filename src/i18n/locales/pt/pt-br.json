@@ -1,6 +1,13 @@
 {
   "translation": {
-    "sobre": "Sobre",
+    "ola": "Olá",
+    "ola-1": "Sobre",
+    "eu-sou": "Eu sou",
+    "eu-sou-1": "Projetos",
+    "lucas": "Contato",
+    "email": "Email copiado",
+    "copia": "Copiar",
+
     "curriculo": "Meu currículo (pdf)",
 
     "apresentacao-1": "Olá, Eu sou Lucas. Desenvolvedor FullStack Junior",
@@ -39,6 +46,9 @@
     "projeto-menu-api-descricao": "API Restful feita em Express, Prisma e MySQL",
     "projeto-eternal-descricao": "Teste técnico para Eternal Technology",
 
-    "mensagem-curriculo": "Indisponível no momento"
+    "mensagem-curriculo": "Indisponível no momento",
+
+    "perdido": "Você está perdido?",
+    "perdido-1": "Venha aqui..."
   }
 }

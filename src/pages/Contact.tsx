@@ -1,4 +1,5 @@
 import { useLanguageContext } from '@/contexts';
+import { useHover } from '@/hooks';
 import { BackgroundLayout } from '@/layouts';
 import { motion as m } from 'framer-motion';
 import toast from 'react-hot-toast';
@@ -6,9 +7,11 @@ import toast from 'react-hot-toast';
 export function ContactPage() {
   const { t } = useLanguageContext();
 
+  const { hovering, onHoverProps } = useHover();
+
   const copyEmail = () => {
     navigator.clipboard.writeText('lucascmpusdev@gmail.com');
-    toast.success('Email Copied');
+    toast.success(t('email'));
   };
 
   return (
@@ -38,8 +41,9 @@ export function ContactPage() {
               }}
               className="text-xl md:text-2xl font-bold md:w-[400px] text-transparent bg-clip-text bg-gradient-to-r from-[#4cbeff99] to-[#b7e5a2b0] cursor-pointer"
               onClick={() => copyEmail()}
+              {...onHoverProps}
             >
-              <a>Email</a>
+              {!hovering ? <>Email</> : <>{t('copia')}</>}
             </m.p>
             <m.p
               whileHover={{

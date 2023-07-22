@@ -20,7 +20,7 @@ export function AboutPage() {
           {/* ABOUT */}
           <div className="flex flex-col gap-4 flex-wrap max-w-[750px] ">
             <div className="text-lg md:text-2xl font-bold flex justify-between">
-              <h1>{t('sobre')}</h1>
+              <h1>{t('ola-1')}</h1>
 
               <m.button
                 whileHover={{

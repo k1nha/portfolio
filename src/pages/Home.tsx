@@ -1,8 +1,15 @@
+import { useLanguageContext } from '@/contexts';
+import { useHover } from '@/hooks';
 import { BackgroundLayout } from '@/layouts';
 import { motion as m } from 'framer-motion';
 import { Link } from 'react-router-dom';
 
 export function HomePage() {
+  const { hovering: hoverHello, onHoverProps: onHoverHello } = useHover();
+  const { hovering: hoverIam, onHoverProps: onHoverIam } = useHover();
+  const { hovering: hoverContact, onHoverProps: onHoverContact } = useHover();
+
+  const { t } = useLanguageContext();
   return (
     <BackgroundLayout disabledButton={true}>
       <m.div
@@ -21,8 +28,9 @@ export function HomePage() {
                 }}
                 id="hello"
                 className="hover"
+                {...onHoverHello}
               >
-                <span>Hello.</span>
+                {!hoverHello ? <>{t('ola')}</> : <>{t('ola-1')}</>}
               </m.p>
             </Link>
             <Link to="/projects">
@@ -32,9 +40,10 @@ export function HomePage() {
                   transition: { duration: 0.3 },
                 }}
                 id="iam"
-                className="text-BabyBlue"
+                className="text-BabyBlue md:w-[460px]"
+                {...onHoverIam}
               >
-                <span className="">I am</span>
+                {!hoverIam ? <>{t('eu-sou')}</> : <>{t('eu-sou-1')}</>}
               </m.p>
             </Link>
             <Link to="/contact">
@@ -45,8 +54,9 @@ export function HomePage() {
                 }}
                 id="lucas"
                 className="md:w-[400px] text-transparent bg-clip-text bg-gradient-to-r from-[#4cbeff99] to-[#b7e5a2b0]"
+                {...onHoverContact}
               >
-                <span>Lucas</span>
+                {!hoverContact ? <>Lucas</> : <>{t('lucas')}</>}
               </m.p>
             </Link>
           </div>
