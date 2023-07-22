@@ -1,13 +1,7 @@
+import { ProjectType } from '@/types';
 import { motion as m } from 'framer-motion';
 
-type TypeProject = {
-  name: string;
-  description: string;
-  github: string;
-  link?: string;
-};
-
-function Project({ description, github, name, link }: TypeProject) {
+export function Project({ description, github, name, link }: ProjectType) {
   return (
     <m.div
       initial={{ opacity: 0 }}
@@ -58,5 +52,3 @@ function Project({ description, github, name, link }: TypeProject) {
     </m.div>
   );
 }
-
-export default Project;

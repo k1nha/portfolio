@@ -1,31 +1,25 @@
-import { createBrowserRouter } from 'react-router-dom';
-import Home from '../pages/Home';
-import About from '../pages/About';
-import Projects from '../pages/Projects';
-import Contact from '../pages/Contact';
-import PageNotFound from '../pages/PageNotFound';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import {
+  AboutPage,
+  ContactPage,
+  HomePage,
+  PageNotFound,
+  ProjectPage,
+} from '../pages';
+import { LanguageProvider } from '@/contexts';
 
-const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <Home />,
-  },
-  {
-    path: '/about',
-    element: <About />,
-  },
-  {
-    path: '/projects',
-    element: <Projects />,
-  },
-  {
-    path: '/contact',
-    element: <Contact />,
-  },
-  {
-    path: '*',
-    element: <PageNotFound />
-  }
-]);
-
-export default router;
+export function RootNavigator() {
+  return (
+    <BrowserRouter>
+      <LanguageProvider>
+        <Routes>
+          <Route path={'/'} element={<HomePage />} />
+          <Route path={'about'} element={<AboutPage />} />
+          <Route path={'/projects'} element={<ProjectPage />} />
+          <Route path={'/contact'} element={<ContactPage />} />
+          <Route path={'*'} element={<PageNotFound />} />
+        </Routes>
+      </LanguageProvider>
+    </BrowserRouter>
+  );
+}

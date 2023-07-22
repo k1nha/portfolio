@@ -1,24 +1,10 @@
-import BackButton from '@/components/BackButton';
-import Background from '../components/Background';
+import { useLanguageContext } from '@/contexts';
+import { BackgroundLayout } from '@/layouts';
 import { motion as m } from 'framer-motion';
-import { HiOutlineLanguage } from 'react-icons/hi2';
-import { useState } from 'react';
-import { useTranslation } from 'react-i18next';
 import toast from 'react-hot-toast';
 
-function Contact() {
-  const {
-    t,
-    i18n: { changeLanguage, language },
-  } = useTranslation();
-
-  const [currentLanguage, setCurrentLanguage] = useState(language);
-
-  const handleChangeLanguage = () => {
-    const newLanguage = currentLanguage === 'en' ? 'pt' : 'en';
-    changeLanguage(newLanguage);
-    setCurrentLanguage(newLanguage);
-  };
+export function ContactPage() {
+  const { t } = useLanguageContext();
 
   const copyEmail = () => {
     navigator.clipboard.writeText('lucascmpusdev@gmail.com');
@@ -26,28 +12,22 @@ function Contact() {
   };
 
   return (
-    <>
-      <BackButton />
-      <m.button
-        initial={{ x: -100 }}
-        animate={{ x: 0 }}
-        transition={{ duration: 1 }}
-        className="absolute top-20 right-5 md:right-10 lg:right-20 text-white bg-BabyBlue px-2 py-1 shadow-2xl rounded-md"
-        type="button"
-        onClick={() => handleChangeLanguage()}
-      >
-        <HiOutlineLanguage />
-      </m.button>
-
+    <BackgroundLayout>
       <div className="w-[100vw] h-[100vh] flex flex-col justify-center items-center font-Montserrat text-white p-5 md:p-0 text-xs md:text-base">
         {/* CONTACT */}
         <div className="flex flex-col gap-4 flex-wrap w-full md:max-w-[750px] justify-between">
           <h1 className="text-2xl md:text-5xl font-bold">{t('contato')}</h1>
 
-          <p className="md:text-lg max-w-[350px] md:max-w-[750px]">{t('contato-1')}</p>
+          <p className="md:text-lg max-w-[350px] md:max-w-[750px]">
+            {t('contato-1')}
+          </p>
 
-          <p className="md:text-lg max-w-[350px] md:max-w-[750px]">{t('contato-2')}</p>
-          <p className="md:text-lg max-w-[350px] md:max-w-[750px]">{t('contato-3')}</p>
+          <p className="md:text-lg max-w-[350px] md:max-w-[750px]">
+            {t('contato-2')}
+          </p>
+          <p className="md:text-lg max-w-[350px] md:max-w-[750px]">
+            {t('contato-3')}
+          </p>
 
           <div className="flex flex-col gap-4">
             <m.p
@@ -86,10 +66,6 @@ function Contact() {
           </div>
         </div>
       </div>
-
-      <Background />
-    </>
+    </BackgroundLayout>
   );
 }
-
-export default Contact;

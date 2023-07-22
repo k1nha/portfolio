@@ -1,42 +1,16 @@
-import { useEffect, useState } from 'react';
-import Background from '../components/Background';
-import { useTranslation } from 'react-i18next';
-import { HiOutlineLanguage } from 'react-icons/hi2';
-import BackButton from '../components/BackButton';
+import { useLanguageContext } from '@/contexts';
+import { BackgroundLayout } from '@/layouts';
 import { motion as m } from 'framer-motion';
+import { toast } from 'react-hot-toast';
 
 const underlineEffect =
   "relative before:content-[''] before:absolute before:block  before:h-[2px] before:bottom-0 before:left-0 before:bg-white before:hover:scale-x-100 before:scale-x-0 before:origin-top-left before:transition before:ease-in-out before:duration-300";
 
-function About() {
-  const {
-    t,
-    i18n: { changeLanguage, language },
-  } = useTranslation();
-
-  const [currentLanguage, setCurrentLanguage] = useState(language);
-
-  const handleChangeLanguage = () => {
-    const newLanguage = currentLanguage === 'en' ? 'pt' : 'en';
-    changeLanguage(newLanguage);
-    setCurrentLanguage(newLanguage);
-  };
+export function AboutPage() {
+  const { t } = useLanguageContext();
 
   return (
-    <>
-      <BackButton />
-
-      <m.button
-        initial={{ x: -100 }}
-        animate={{ x: 0 }}
-        transition={{ duration: 1 }}
-        className="absolute top-20 right-5 md:right-10 lg:right-20 text-white bg-BabyBlue px-2 py-1 shadow-2xl rounded-md"
-        type="button"
-        onClick={() => handleChangeLanguage()}
-      >
-        <HiOutlineLanguage />
-      </m.button>
-
+    <BackgroundLayout>
       <m.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -55,7 +29,7 @@ function About() {
                 }}
                 className="text-lg md:text-xl text-right text-transparent bg-clip-text bg-gradient-to-r from-[#4cbeff99] to-[#b7e5a2b0]"
               >
-                <a href="">{t('curriculo')}</a>
+                <a href="#" onClick={()=> toast(t('mensagem-curriculo'))}>{t('curriculo')}</a>
               </m.button>
             </div>
 
@@ -93,8 +67,8 @@ function About() {
 
               {/* INTERA */}
               <div className="">
-                <li className="text-base md:text-xl">{t('intera')}</li>
-                <p>{t('intera-1')}</p>
+                <li className="text-base md:text-xl">{t('eternal')}</li>
+                <p>{t('eternal-1')}</p>
               </div>
 
               {/* FREELA */}
@@ -106,10 +80,6 @@ function About() {
           </div>
         </div>
       </m.div>
-
-      <Background />
-    </>
+    </BackgroundLayout>
   );
 }
-
-export default About;

@@ -1,6 +1,7 @@
-function Background() {
+export function Background() {
   return (
-    <svg id="background"
+    <svg
+      id="background"
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -78,5 +79,3 @@ function Background() {
     </svg>
   );
 }
-
-export default Background;

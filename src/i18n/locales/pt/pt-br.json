@@ -14,8 +14,8 @@
     "contatos-1": "Localização: Salvador, Bahia - Disponível para realocação",
 
     "experiencias": "Experiências",
-    "intera": "Tech Recruiter - INTERA | jun/2021 - feb/2022",
-    "intera-1": "Prospecção e recrutamento de talentos das áreas de negócios, produtos e tecnologia utilizando metodologia Scrum; Avaliação de funil e qualificações de talentos.",
+    "eternal": "Desenvolvedor Front-End Jr - Eternal | mai/2023 - atual",
+    "eternal-1": "Estágio voltuntário no desenvolvimento da Codei.pro, plataforma de educação e agregador de conteúdo voltado para tecnologia",
 
     "freelancer": "Freelancer - Freelancer | abr/2023 - atual",
     "freelancer-1": "Criação de paginas web a partir de prototipos. Projetos com Java, Typescript/JavaScript usando o framework React com utilização de API's REST",
@@ -32,6 +32,13 @@
     "contato": "Contato",
     "contato-1": "Estou sempre em busca de oportunidades para colaborar com organizações / agências / indivíduos, não apenas trabalhar para eles. Desejo contribuir com minhas experiências para que possamos trabalhar em conjunto afim de solucionar problemas reais.",
     "contato-2": "Se tudo parecer certo, então vamos conversar sobre como podemos trabalhar juntos.",
-    "contato-3": "Sinta-se a vontade para entrar em contato comigo através de qualquer plataforma abaixo:"
+    "contato-3": "Sinta-se a vontade para entrar em contato comigo através de qualquer plataforma abaixo:",
+
+    "projeto-codei-descricao": "Plataforma de ensino e agregador de conteúdo voltado para tecnologia",
+    "projeto-vuttr-descricao": "Ferramentas úteis para lembrar",
+    "projeto-menu-api-descricao": "API Restful feita em Express, Prisma e MySQL",
+    "projeto-eternal-descricao": "Teste técnico para Eternal Technology",
+
+    "mensagem-curriculo": "Indisponível no momento"
   }
 }

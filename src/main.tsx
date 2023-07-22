@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { RouterProvider } from 'react-router-dom';
-import './index.css';
-import router from './routes';
-import './i18n/index';
 import { Toaster } from 'react-hot-toast';
+import './i18n/index';
+import './index.css';
+import { RootNavigator } from './routes';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <RootNavigator />
     <Toaster
       toastOptions={{
         success: {

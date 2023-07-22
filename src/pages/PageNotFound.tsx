@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
-import Background from '../components/Background';
+import { Background, BackButton } from '@/components';
 
-function PageNotFound() {
+export function PageNotFound() {
   return (
     <>
       <div className="w-[100vw] h-[100vh] flex flex-col items-center justify-center font-Montserrat text-8xl font-bold text-white">
@@ -14,5 +14,3 @@ function PageNotFound() {
     </>
   );
 }
-
-export default PageNotFound;

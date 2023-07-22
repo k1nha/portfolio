@@ -1,46 +1,45 @@
-import Project from '@/components/Project';
+import { ProjectType } from '@/types';
+import { Project } from '@/components';
+import { useLanguageContext } from '@/contexts';
+import { BackgroundLayout } from '@/layouts';
 import { motion as m } from 'framer-motion';
-import BackButton from '../components/BackButton';
-import Background from '../components/Background';
 
-const projects = [
-  {
-    name: 'Codei.pro',
-    description: 'Plataforma de educação',
-    github: 'https://github.com/eternaltechnology',
-    link: 'https://codei.pro/',
-  },
-  {
-    name: 'VUTTR',
-    description: 'A Very Useful Tools to Remember',
-    github: 'https://github.com/lucascmpus/vuttr',
-  },
-  {
-    name: 'Menu Api',
-    description: 'CRUD with Express Prisma MySQL',
-    github: 'https://github.com/lucascmpus/menu-api',
-  },
+export function ProjectPage() {
+  const { t } = useLanguageContext();
 
-  {
-    name: 'To Do',
-    description: 'Uma lista de tarefas para organizar o trabalho e a vida',
-    github: 'https://github.com/lucascmpus/To-Do-JS',
-    link: 'https://to-do-js-zeta.vercel.app/',
-  },
-  {
-    name: 'Eternal Tech',
-    description: 'Technical Test',
-    github: 'https://eternaltech-client.vercel.app/',
-  },
-];
-
-function Projects() {
+  const projects: ProjectType[] = [
+    {
+      name: 'Codei.pro',
+      description: t('projeto-codei-descricao'),
+      github: 'https://github.com/eternaltechnology',
+      link: 'https://codei.pro/',
+    },
+    {
+      name: 'VUTTR',
+      description: t('projeto-vuttr-descricao'),
+      github: 'https://github.com/lucascmpus/vuttr',
+    },
+    {
+      name: 'Menu Api',
+      description: t('projeto-menu-api-descricao'),
+      github: 'https://github.com/lucascmpus/menu-api',
+    },
+    // {
+    //   name: 'To Do',
+    //   description: 'Uma lista de tarefas para organizar o trabalho e a vida',
+    //   github: 'https://github.com/lucascmpus/To-Do-JS',
+    //   link: 'https://to-do-js-zeta.vercel.app/',
+    // },
+    {
+      name: 'Eternal Tech',
+      description: t('projeto-eternal-descricao'),
+      github: 'https://eternaltech-client.vercel.app/',
+    },
+  ];
   return (
-    <>
-      <BackButton />
-
+    <BackgroundLayout>
       <m.div className="w-[100vw] h-[100vh] flex flex-col justify-center items-center font-Montserrat text-white text-left font-bold">
-        <div className="flex flex-col gap-10 lg:w-[750px]">
+        <div className="flex flex-col gap-10 lg:w-[750px] px-4 lg:px-0">
           {projects.map(({ description, github, name, link }) => (
             <Project
               description={description}
@@ -52,10 +51,6 @@ function Projects() {
           ))}
         </div>
       </m.div>
-
-      <Background />
-    </>
+    </BackgroundLayout>
   );
 }
-
-export default Projects;

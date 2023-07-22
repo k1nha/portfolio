@@ -2,7 +2,7 @@ import { IoIosArrowBack } from 'react-icons/io';
 import { Link } from 'react-router-dom';
 import { motion as m } from 'framer-motion';
 
-function BackButton() {
+export function BackButton() {
   return (
     <>
       <m.button
@@ -18,5 +18,3 @@ function BackButton() {
     </>
   );
 }
-
-export default BackButton;

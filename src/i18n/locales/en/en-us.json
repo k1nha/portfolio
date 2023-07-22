@@ -14,8 +14,8 @@
     "contatos-1": "Location: Salvador,Bahia - Available to realocation",
 
     "experiencias": "Experiences",
-    "intera": "Tech Recruiter - INTERA | jun/2021 - feb/2022",
-    "intera-1": "Prospecting and recruiting talent from business, product, and technology areas using Scrum methodology; Funnel assessment and talent qualifications.",
+    "eternal": "Front-End Developer Jr - Eternal | mai/2023 - current",
+    "eternal-1": "Volunteer internship in the development of Codei.pro, education platform and content aggregator focused on technology",
 
     "freelancer": "Freelancer - Freelancer | apr/2023 - current",
     "freelancer-1": "Creation of web pages from prototypes. Projects with Java,Typescript/JavaScript using React framework with the help of REST API's",
@@ -32,6 +32,13 @@
     "contato": "Contact",
     "contato-1": "I am always looking forward opportunities on collaborating with organizations / agencies / individuals, not only to work for them. I want to use my knowledge so we can work together and solve real problems.",
     "contato-2": "If you like the idea, let's talk and see how we can work together.",
-    "contato-3": "Feel free to contact me through any platform below:"
+    "contato-3": "Feel free to contact me through any platform below:",
+
+    "projeto-codei-descricao": "Education platform and content aggregator focused on technology",
+    "projeto-vuttr-descricao": "A Very Useful Tools to Remember'",
+    "projeto-menu-api-descricao": "APIRestful with Express,Prisma and MySQL",
+    "projeto-eternal-descricao": "Technical Test for Eternal Technology",
+
+    "mensagem-curriculo": "Currently unavailable"
   }
 }

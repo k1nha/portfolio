@@ -1,10 +1,10 @@
-import { Link } from 'react-router-dom';
-import Background from '../components/Background';
+import { BackgroundLayout } from '@/layouts';
 import { motion as m } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
-function Home() {
+export function HomePage() {
   return (
-    <>
+    <BackgroundLayout disabledButton={true}>
       <m.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -52,9 +52,6 @@ function Home() {
           </div>
         </div>
       </m.div>
-      <Background />
-    </>
+    </BackgroundLayout>
   );
 }
-
-export default Home;
