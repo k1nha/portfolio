@@ -4,6 +4,9 @@ import { Toaster } from 'react-hot-toast';
 import './i18n/index';
 import './index.css';
 import { RootNavigator } from './routes';
+import { inject } from '@vercel/analytics';
+
+inject();
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
